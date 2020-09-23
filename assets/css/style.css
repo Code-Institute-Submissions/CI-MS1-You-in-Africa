@@ -1,0 +1,88 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+/*--------------------------------------------------Navbar----------*/
+nav a img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*--------------------------------------------------Main Section----------*/
+
+#hero-image {
+    background: url("../images/hero.png") no-repeat center center fixed;
+    background-blend-mode: overlay;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+#intro-text {
+    text-align: center;
+    color: #5C411A;
+    padding-top: 90px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 90px;
+    animation-name: late-start;
+    animation-duration: 5s;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 span {
+    
+    font-size: 80px;
+    animation-name: late-start-1;
+    animation-duration: 8s;
+    
+}
+
+p {
+    background-color: #F18E04;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+  @keyframes late-start {
+    0%{
+      opacity:0;
+      }
+    30% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+
+  }
+
+@keyframes late-start-1 {
+    0%{
+      opacity:0;
+      }
+    40% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+}
+
+
