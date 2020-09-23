@@ -184,17 +184,22 @@ h2 {
 
 #carouselExampleCaptions p {
     font-size: 30px;
-    font-weight: 700;
     width: 300px;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Signika', sans-serif;
+
 }
 
 #carouselExampleCaptions p span {
     color: #f1b604;
 }
 
-
 .carousel-caption {
     top: 20px;
     left: 20px;
+    z-index: 1;
 }
