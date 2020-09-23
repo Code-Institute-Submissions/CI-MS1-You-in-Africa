@@ -119,3 +119,49 @@ h2 {
     color:#5C411A;
     font-weight: 300;
 }
+
+/*--------------------------------------------------Volunteer----------*/
+.container-volunteer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.volunteer-testimony{
+    width: 350px;
+    height: auto;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.volunteer-testimony img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.volunteer-testimony h3{
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.volunteer-testimony p {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.push-down {
+    transform: translateY(20%);
+}
