@@ -165,3 +165,36 @@ h2 {
 .push-down {
     transform: translateY(20%);
 }
+
+/*-----------------------------   id="carouselExampleCaptions" class="carousel slide"              ---------------------Carousel----------*/
+
+.fun-facts {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+.carousel-inner {
+    border-radius: 8px;
+}
+
+#carouselExampleCaptions {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#carouselExampleCaptions p {
+    font-size: 30px;
+    font-weight: 700;
+    width: 300px;
+    text-align: left;
+}
+
+#carouselExampleCaptions p span {
+    color: #f1b604;
+}
+
+
+.carousel-caption {
+    top: 20px;
+    left: 20px;
+}
