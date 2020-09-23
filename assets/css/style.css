@@ -1,5 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    color:#5C411A
     
 }
 
@@ -54,8 +55,9 @@ h1 span {
     
 }
 
-p {
-    background-color: #F18E04;
+#intro-text p {
+    background-color: #5C411A;
+    color: #F18E04;
     display: inline-block;
     border-radius: 5px;
     padding: 5px;
@@ -85,4 +87,35 @@ p {
       opacity:1;
 }
 
+}
 
+/*--------------------------------------------------About----------*/
+.container-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    max-width: 100%;
+    flex-direction: row;
+}
+}
+
+.about-img {
+    width: 350px;
+    height: auto;
+}
+
+.about-intro {
+    width: 350px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#5C411A;
+    font-weight: 300;
+}
