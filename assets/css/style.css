@@ -15,6 +15,28 @@ nav a img {
     padding-bottom: 0;
 }
 
+.btn-outline-success {
+    background: linear-gradient(135deg, #ff4400, #c7b100);
+    color:#5C411A;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 8px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+
+.btn-outline-success:hover {
+    background: linear-gradient(135deg, #c7b100, #ff4400);
+    color: #5C411A;
+    font-size: 16px;
+}
+
+
+
 /*--------------------------------------------------Main Section----------*/
 
 #hero-image {
