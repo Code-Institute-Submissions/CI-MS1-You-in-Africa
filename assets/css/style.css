@@ -22,19 +22,20 @@ nav a img {
     border-radius: 30px;
     font-weight: 600;
     padding: 8px; 
-    transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -webkit-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
+
 }
 
-.btn-outline-success:hover {
+.btn-outline-success:hover,
+.btn-outline-success:active,
+.btn-outline-success:focus,
+.btn-outline-success:visited {
     color: #5C411A;
+    border: none;
 }
 
 .btn-outline-success:hover > .fa-heart {
     animation-name: button-animation;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
 }
 
   @keyframes button-animation {
@@ -50,19 +51,6 @@ nav a img {
 
   }
 
-/*.btn-outline-success:hover {
-    color: #5C411A;
-    
-}
-
-.btn-outline-success:hover,
-.btn-outline-success:active,
-.btn-outline-success:focus,
-.btn-outline-success:active:focus > .fa-heart {
-    color: #5C411A;
-    font-size: 20px;
-}
-*/
 /*--------------------------------------------------Main Section----------*/
 
 #hero-image {
@@ -147,11 +135,14 @@ h1 span {
     max-width: 100%;
     flex-direction: row;
 }
-}
 
 .about-img {
     width: 350px;
     height: auto;
+}
+
+.about-img img {
+    width: 350px;
     vertical-align: middle;
 }
 
