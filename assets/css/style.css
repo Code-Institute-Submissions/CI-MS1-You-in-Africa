@@ -290,3 +290,44 @@ h2 {
     left: 20px;
     z-index: 1;
 }
+
+
+/*--------------------------------------------------Footer----------*/
+
+
+.social-footer {
+    width: 100%;
+    display: inline-flex;
+    height: 7vh;
+    align-items: center;
+    background-color: #343A3B;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.social-media {
+    margin: 0;
+}
+
+.social-media li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 28px;
+    padding-right: 8px;
+    padding-left: 8px;
+    right: 20px;
+}
+
+.fa-facebook {
+    color:#036AE3;
+}
+
+.fa-instagram {
+    color: #f56a40;
+}
+
+.fa-linkedin-in {
+    color: #0077B5;
+    
+}
