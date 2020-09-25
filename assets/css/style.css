@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 body {
     font-family: 'Work Sans', sans-serif;
     color:#5C411A
@@ -306,6 +308,8 @@ h2 {
     background-size: cover;
     min-width: 350px;
     border-radius: 8px;
+    margin-bottom: 50px;
+    display: grid;
 }
 
 .contact-details {
@@ -313,7 +317,7 @@ h2 {
 }
 
 .contact-details form {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 50px;
     position: absolute;
     max-width: 400px;
@@ -324,13 +328,12 @@ h2 {
     width: 100%;
     border-radius: 8px;
     border: 1px solid #5C411A;
-    padding-left: 5px;
+    padding-left: 6px;
 }
 
 .form-question {
     width: 100%
 }
-
 
 .button-form {
     display: block;
@@ -349,6 +352,12 @@ h2 {
     border-color: #5C411A;
 }
 
+.container-contact img {
+    margin-left: 570px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.75);
+    opacity: 60%;
+}
 /*--------------------------------------------------Footer----------*/
 
 .social-footer {
@@ -390,9 +399,16 @@ h2 {
     
 }
 
+@media screen and (min-width: 1400px) {
+    .contact-details form {
+        margin-top: 110px;
+    }
+
+}
 
 
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1040px) {
 #hero-image {
     background: url("../images/hero-image-medium-screens.png");
     background-position: center;
@@ -423,7 +439,7 @@ h2 {
     margin: 130px 105px 130px 105px;
 }
 
-.button-invisible {
+.container-contact img, .button-invisible  {
     display: none;
 }
 
@@ -462,7 +478,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 375px) {
     .container-contact {
         height: 90vh;
     }
