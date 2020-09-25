@@ -25,6 +25,12 @@ nav a img {
 
 }
 
+.navbar-position {
+    position: fixed;
+    z-index: 1;
+    width: 100%
+}
+
 .btn-outline-success:hover,
 .btn-outline-success:active,
 .btn-outline-success:focus,
@@ -295,7 +301,7 @@ h2 {
 .social-footer {
     width: 100%;
     display: inline-flex;
-    height: 7vh;
+    height: 60px;
     align-items: center;
     background-color: #343A3B;
     justify-content: space-between;
@@ -345,7 +351,9 @@ h2 {
 	position: relative;
     height: 100vh;  
 }
-
+.navbar-position {
+    position: absolute;
+}
 .push-down {
     transform: translateY(0);
 }
@@ -358,7 +366,14 @@ h2 {
     margin-bottom: 10px;
 }
 
+.button-invisible {
+    display: none;
+}
 
+.footer-position {
+    position: fixed;
+    bottom:0;
+}
 
 }
 
