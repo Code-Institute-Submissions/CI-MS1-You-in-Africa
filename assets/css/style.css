@@ -352,11 +352,19 @@ h2 {
     border-color: #5C411A;
 }
 
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after image containers              CODE TOOK FROM https://www.w3schools.com/howto/howto_css_images_side_by_side.asp         FIXED IT*/
+
+
 .container-contact img {
     margin-left: 570px;
     border-radius: 8px;
     box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.75);
-    opacity: 60%;
+    opacity: 70%;
 }
 /*--------------------------------------------------Footer----------*/
 
@@ -399,6 +407,15 @@ h2 {
     
 }
 
+/*--------------------------------------------------Media Screens----------*/
+
+@media screen and (max-width: 1675px) {
+.img-invisible  {
+    display: none;
+}
+
+}
+
 @media screen and (min-width: 1400px) {
     .contact-details form {
         margin-top: 110px;
@@ -439,7 +456,7 @@ h2 {
     margin: 130px 105px 130px 105px;
 }
 
-.container-contact img, .button-invisible  {
+.container-contact img, .button-invisible, .img-invisible  {
     display: none;
 }
 
