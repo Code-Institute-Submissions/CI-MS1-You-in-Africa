@@ -133,16 +133,22 @@
         <h2>Contact</h2>
         <div class="container-contact">
             <div class="contact-details">
-               <!-- <form method="post" action="https://formdump.codeinstitute.net">
+                <form method="post" action="https://formdump.codeinstitute.net">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Full Name" name="name">
+                    <input class="text-input" id="name" type="text"  placeholder="Full Name" name="name">
                     <label for="phone-number">Number:</label>
-                    <input type="mo" id="phone-number" placeholder="Phone Number" name="phone-number">
+                    <input class="text-input" id="phone-number" type="number"  placeholder="Phone Number" name="phone-number" >
                     <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Email" name="email">
-                    <input type="submit" value="Send it!">
-
-                </form>-->
+                    <input class="text-input" id="email" type="email"  placeholder="Email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea class="text-input" id="message" name="message"  rows="5"></textarea>
+                    <label class="text-input" for="">How would you like to be contact?</label>
+                    <label for="phone-contact">Phone</label>
+                    <input id="phone-contact" type="radio" name="prefer-contact" value="phone-contact" required>
+                    <label for="email-contact">Email</label>
+                    <input id="email-contact" type="radio" name="prefer-contact" value="email-contact"> 
+                    <input class="text-input" type="submit" value="Send it!">
+                </form>
             </div>
         </div>
 

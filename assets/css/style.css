@@ -313,12 +313,16 @@ h2 {
 }
 
 .contact-details form {
-    margin: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
     position: absolute;
     max-width: 400px;
     justify-content: center;
 }
 
+.text-input {
+    width: 100%;
+}
 
 /*--------------------------------------------------Footer----------*/
 
@@ -390,6 +394,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.contact-details form {
+    margin: 130px 105px 130px 105px;
+}
+
 .button-invisible {
     display: none;
 }
@@ -421,6 +429,11 @@ h2 {
 h1 {
     font-size: 80px;
     line-height: 90%
+}
+
+.contact-details form {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 }
