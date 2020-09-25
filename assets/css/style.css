@@ -170,7 +170,7 @@ h2 {
 }
 
 /*--------------------------------------------------Volunteer----------*/
-.container-volunteer, .volunteer-clarify {
+.container-volunteer, .container-clarify {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -180,7 +180,7 @@ h2 {
     margin-bottom: 70px;
 }
 
-.volunteer-clarify {
+.container-clarify {
     margin-bottom: 120px;
 }
 
@@ -295,6 +295,16 @@ h2 {
     z-index: 1;
 }
 
+/*--------------------------------------------------Contact----------*/
+
+
+.container-contact {
+    background: url("../images/bg-yellow.png");
+    width: 80%;
+    height: auto;
+    
+}
+
 
 /*--------------------------------------------------Footer----------*/
 
@@ -362,7 +372,7 @@ h2 {
     margin: 0 15px 30px 15px;
 }
 
-.container-volunteer, .volunteer-clarify {
+.container-volunteer, .container-clarify {
     margin-bottom: 10px;
 }
 
