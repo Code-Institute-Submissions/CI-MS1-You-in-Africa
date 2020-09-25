@@ -299,10 +299,24 @@ h2 {
 
 
 .container-contact {
-    background: url("../images/bg-yellow.png");
+    background: url("../images/bg-yellow.png") no-repeat center;
     width: 80%;
-    height: auto;
-    
+    height: 70vh;
+    margin: 0 auto;
+    background-size: cover;
+    min-width: 350px;
+    border-radius: 8px;
+}
+
+.contact-details {
+    position: relative;
+}
+
+.contact-details form {
+    margin: 150px;
+    position: absolute;
+    max-width: 400px;
+    justify-content: center;
 }
 
 
