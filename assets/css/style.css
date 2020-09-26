@@ -141,13 +141,13 @@ h1 span {
     max-width: 100%;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .about-img {
     margin: 20px;
     background-image: url("../images/bg-yellow.png");
     background-size: cover;
-    
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
     border-radius: 8px
 }
@@ -155,7 +155,8 @@ h1 span {
 .about-img img {
     max-width: 400px;
     height: auto;
-    opacity: 80%;
+    opacity: 70%;
+    border-radius: 8px;
     
 }
 
@@ -186,7 +187,6 @@ h2 {
     max-width: 100%;
     flex-direction: row;
     text-align: center;
-    margin-bottom: 70px;
 }
 
 .container-clarify {
@@ -309,13 +309,15 @@ h2 {
 
 .container-contact {
     background: url("../images/bg-yellow.png") no-repeat center;
+    background-size: cover;
     width: 90%;
     height: 80vh;
     margin: 0 auto;
-    background-size: cover;
+    display: grid;
     min-width: 350px;
     border-radius: 8px;
-    display: grid;
+    box-shadow: 0px 0px 35px -8px rgba(0,0,0,0.55);
+
 }
 
 .contact-details {
@@ -432,8 +434,6 @@ footer {
 
 }
 
-
-
 @media screen and (max-width: 1040px) {
 #hero-image {
     background: url("../images/hero-image-medium-screens.png");
@@ -453,7 +453,11 @@ footer {
     transform: translateY(0);
 }
 
-.volunteer-reasons, .volunteer-testimony {
+.about-intro {
+    order: 1;
+}
+
+.volunteer-reasons, .volunteer-testimony, .about-img {
     margin: 0 15px 30px 15px;
 }
 
@@ -465,7 +469,7 @@ footer {
     margin: 130px 105px 130px 105px;
 }
 
-.container-contact img, .button-invisible, .img-invisible  {
+.container-contact img, .button-invisible  {
     display: none;
 }
 
@@ -500,6 +504,14 @@ footer {
 h1 {
     font-size: 80px;
     line-height: 90%
+}
+
+.about-intro {
+    order: -1;
+}
+
+.hidden-image {
+    display: none;
 }
 
 .contact-details form {
