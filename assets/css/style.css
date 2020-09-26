@@ -136,20 +136,26 @@ h1 span {
 .container-about{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 100%;
     flex-direction: row;
+    align-items: center;
 }
 
 .about-img {
-    width: 350px;
-    height: auto;
+    margin: 20px;
+    background-image: url("../images/bg-yellow.png");
+    background-size: cover;
+    
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 8px
 }
 
 .about-img img {
-    width: 350px;
-    vertical-align: middle;
+    max-width: 400px;
+    height: auto;
+    opacity: 80%;
+    
 }
 
 .about-intro {
@@ -406,7 +412,7 @@ h2 {
     color: #0077B5;
     
 }
-
+/*
 /*--------------------------------------------------Media Screens----------*/
 
 @media screen and (max-width: 1675px) {
