@@ -17,6 +17,12 @@ nav a img {
     padding-bottom: 0;
 }
 
+.navbar-position {
+    position: fixed;
+    z-index: 1;
+    width: 100%
+}
+
 .btn-outline-success {
     background: linear-gradient(135deg, #ff4400, #c7b100);
     color:#5C411A;
@@ -27,18 +33,13 @@ nav a img {
 
 }
 
-.navbar-position {
-    position: fixed;
-    z-index: 1;
-    width: 100%
-}
-
 .btn-outline-success:hover,
 .btn-outline-success:active,
 .btn-outline-success:focus,
 .btn-outline-success:visited {
     color: #5C411A;
-    border: none;
+    box-shadow: none;
+    border:none;
 }
 
 .btn-outline-success:hover > .fa-heart {
@@ -314,7 +315,6 @@ h2 {
     background-size: cover;
     min-width: 350px;
     border-radius: 8px;
-    margin-bottom: 50px;
     display: grid;
 }
 
@@ -373,6 +373,9 @@ h2 {
     opacity: 70%;
 }
 /*--------------------------------------------------Footer----------*/
+footer {
+    margin-top: 20px;
+}
 
 .social-footer {
     width: 100%;
@@ -464,6 +467,10 @@ h2 {
 
 .container-contact img, .button-invisible, .img-invisible  {
     display: none;
+}
+
+.footer {
+    margin-top: 70px;
 }
 
 .footer-position {
