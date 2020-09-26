@@ -461,6 +461,10 @@ footer {
     margin: 0 15px 30px 15px;
 }
 
+.volunteer-reasons {
+    padding-bottom: 15px;
+}
+
 .container-volunteer, .container-clarify {
     margin-bottom: 10px;
 }
