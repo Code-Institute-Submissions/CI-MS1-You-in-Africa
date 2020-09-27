@@ -26,11 +26,10 @@ nav a img {
 .btn-outline-success {
     background: linear-gradient(135deg, #ff4400, #c7b100);
     color:#5C411A;
-    border: none;
+    border: 1px solid #5C411A;
     border-radius: 30px;
     font-weight: 600;
-    padding: 8px; 
-
+    padding: 8px 10px;
 }
 
 .btn-outline-success:hover,
@@ -39,7 +38,7 @@ nav a img {
 .btn-outline-success:visited {
     color: #5C411A;
     box-shadow: none;
-    border:none;
+    border: 1px solid #5C411A;
 }
 
 .btn-outline-success:hover > .fa-heart {
@@ -71,7 +70,8 @@ nav a img {
     -o-background-size: cover;
     background-blend-mode: overlay;
 	position: relative;
-    height: 100vh;  
+    height: 100vh;
+    margin-bottom: 30px;
 }
 
 
@@ -157,7 +157,6 @@ h1 span {
     height: auto;
     opacity: 70%;
     border-radius: 8px;
-    
 }
 
 .about-intro {
@@ -306,30 +305,37 @@ h2 {
     z-index: 1;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
 /*--------------------------------------------------Contact----------*/
 
 
 .container-contact {
     background: url("../images/bg-yellow.png") no-repeat center;
     background-size: cover;
-    width: 90%;
-    height: 80vh;
-    margin: 0 auto;
-    display: grid;
-    min-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 8px;
     box-shadow: 0px 0px 35px -8px rgba(0,0,0,0.55);
-
+    padding: 50px 0;
+    margin-bottom: 80px;
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .contact-details {
-    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .contact-details form {
-    margin-top: 10px;
-    margin-left: 50px;
-    position: absolute;
     max-width: 400px;
     justify-content: center;
 }
@@ -362,21 +368,14 @@ h2 {
     border-color: #5C411A;
 }
 
-.column-img {
-  float: left;
-  width: 30%;
-}
-
-/* Clear floats after image containers              CODE TOOK FROM https://www.w3schools.com/howto/howto_css_images_side_by_side.asp         FIXED IT*/
-
-
 .container-contact img {
-    margin-left: 650px;
     border-radius: 8px;
     box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.75);
     opacity: 70%;
 }
+
 /*--------------------------------------------------Footer----------*/
+
 footer {
     margin-top: 20px;
 }
@@ -429,12 +428,6 @@ footer {
 
 }
 
-@media screen and (min-width: 1400px) {
-    .contact-details form {
-        margin-top: 110px;
-    }
-
-}
 
 @media screen and (max-width: 1040px) {
 #hero-image {
@@ -446,7 +439,8 @@ footer {
     -o-background-size: cover;
     background-blend-mode: overlay;
 	position: relative;
-    height: 100vh;  
+    height: 100vh;
+    margin-bottom: 50px; 
 }
 
 .navbar-position {
@@ -468,16 +462,23 @@ h2 {
     margin: 0 15px 30px 15px;
 }
 
-.container-volunteers, .container-clarify, .container-about, .container-gallery {
+.container-volunteers, .container-clarify, .container-about {
     margin-bottom: 10px;
-}
-
-.contact-details form {
-    margin: 130px 105px 130px 105px;
 }
 
 .container-contact img, .button-invisible  {
     display: none;
+}
+
+.container-contact {
+    padding: 20px 0;
+    justify-content: center;
+    min-width: 100%;
+    margin-bottom: 80px;
+}
+
+.contact-details {
+    margin: 0;
 }
 
 .footer {
@@ -524,13 +525,6 @@ h1 {
 .contact-details form {
     margin: 20px;
 }
-
-}
-
-@media screen and (max-width: 375px) {
-    .container-contact {
-        height: 90vh;
-    }
 
 }
 
