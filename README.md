@@ -116,7 +116,74 @@ I only used Signika for the pictures on the carousel because it looked better.
 
 [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
 
-Code Institute SLACK Community - Main source of assistance
+Code Institute SLACK Community - General Resource
 
+## Testing
 
+* [W3C Markup Validation](https://validator.w3.org/) - Used for validity HTML
 
+* [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for validity CSS
+
+* Tested across multiple browsers (Chrome, Safari, Firefox, Internet Explorer)
+
+* Tested on multiple mobile devices (iPhone 7, 8, X, Samsung Galaxy, and Xiaomi)
+
+* https://henriqueperoni.github.io/CI-MS1-You-in-Africa/
+
+* Tested About, Gallery, Volunteering, and Contact links in the menu to make sure it points to each page correctly.
+
+* Tested the Donate Button and Social Media icons to make sure they open the correct pages in a new tab on the browser.
+
+* Tested carousel arrows move to the next image correctly and increase the size of the arrows to make it more visible.
+
+* Tested Name and Email to check the input were required.
+
+* Tested Name, Phone Number, and Email request the right input. Not allowing you to put numbers on the name or leave the email without a "@"
+
+* Tested radio buttons to make sure only one option can be selected
+
+## Deployment
+
+This project has been deployed on GitHub Pages with the following process:
+
+1. All code was written on Gitpod, an online IDE.
+
+2. The code was then pushed to GitHub where it is stored in my Repository.
+
+3. Under the settings section of the GitHub repository, scroll down to the GitHub Pages section.
+
+4. Under 'Source' drop-down, the 'Master branch' was selected.
+
+5. Once selected, this publishes the project to GitHub Pages and displays the site URL.
+
+6. There is no difference between the deployed version and the development version.
+
+7. The code can be run locally through clone or download.
+
+8. You can do this by opening the repository, clicking on the green 'Code' button, and selecting either 'clone or download'.
+
+9. The Clone option provides a URL, which you can use on your desktop IDE.
+
+10. The Download ZIP option provides a link to download a ZIP file that can be unzipped on your local machine.
+
+## Credits
+
+### Content
+
+Most of the content was provided from the [Instagram page](https://www.instagram.com/youinafricaoficial/) of You in Africa. I just had to translate and made a few modifications to make more sense for English speakers. I also had the fundamental help from the volunteers of the project who helped with beautiful testimonies.
+
+### Media
+
+All the images were provided from You in Africa team. I only had to edit some images.
+
+### Code
+
+I used a lot of flex-boxes on my project, I searched a lot on Google about it, but this particular [video](https://www.youtube.com/watch?v=JJSoEo8JSnc) helped a lot to understand it deeper.
+
+## Acknowledgements
+
+* Thanks to my mentor Excellence Ilesanmi for his time, patience, and excellent advice.
+
+* Thanks to the Code Institute Slack Community. Without you, it would have been much harder.
+
+* Thanks to my wife for all the support she gave me.
