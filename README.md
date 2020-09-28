@@ -2,7 +2,7 @@
 
 ![I am responsive image](assets/images/i-am-responsive.png)
 
-The aim of this project is to get donations and volunteers to help You in Africa. I explained how the project started, how it works, and what has been done so far.
+The aim of this project is to show what You in Africa is, how it works. Thus getting donations and volunteers to help You in Africa. I explained how the project started, and what has been done so far.
 
 ## Table of Contents:
 * [User Experience](#user-experience)
@@ -54,15 +54,19 @@ Customer Goals:
 * Inspire people to become a volunteer.
 
 ### 2. Scope
-I have decided to keep th
+I kept the project simple enough to be understood with no difficult and the user have a good experience
 
 * Learn more about the project
+
+* Easy way to donate
 
 * Easy way to apply to become a volunteers
 
 * Contact with a question
 
 * Visit social media channels
+
+* I used some animations to make de user experience more pleasent and enchanting
 
 ### 3. Structure
 
@@ -72,7 +76,7 @@ Although the main goal of the website is to get more donations, I did not want t
 
 ### 4. Skeleton
 
-* Wireframes: <!-- add wireframes here -->
+* [Wireframes](assets/docs/wireframe.pdf)
 
 * Home, About, Volunteering, Galerry, and Contact Section.
 
@@ -97,8 +101,6 @@ I only used Signika for the pictures on the carousel because it looked better.
 * Designed with HTML5, CSS3 and Bootstrap.
 
 * Donate button directing to another website.
-
-* Scroll to top button enables the user to quickly move back to the top of the page.
 
 * Fixed navigation bar for large screens to keep visible the donate button.
 

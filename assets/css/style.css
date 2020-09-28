@@ -527,3 +527,18 @@ h1 {
 }
 
 }
+
+@media screen and (max-width: 320px) {
+    .about-img, {
+        max-width: 90%;
+
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .social-footer {
+        padding-left: 0;
+    }
+
+}
