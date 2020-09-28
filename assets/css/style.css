@@ -206,6 +206,10 @@ h1 span {
     margin-bottom: 120px;
 }
 
+.push-down {
+    transform: translateY(20%);
+}
+
 /*---------------ABOUT---------------*/
 
 .about-img {
@@ -323,10 +327,6 @@ h2 {
     font-size: 14px;
     width: 70%;
     padding-bottom: 30px;
-}
-
-.push-down {
-    transform: translateY(20%);
 }
 
 /*---------------GALLERY---------------*/

@@ -1,6 +1,6 @@
 # [You in Africa](https://henriqueperoni.github.io/CI-MS1-You-in-Africa/)
 
-![I am responsive image](assets/images/i-am-responsive.png)
+![I am responsive image](assets/images/mock-up.png)
 
 The aim of this project is to show what You in Africa is, how it works. Thus getting donations and volunteers to help You in Africa. I explained how the project started, and what has been done so far.
 
