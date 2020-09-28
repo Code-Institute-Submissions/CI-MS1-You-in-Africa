@@ -5,7 +5,7 @@ body {
     color:#5C411A
 }
 
-/*--------------------------------------------------Navbar----------*/
+/*---------------NAVBAR---------------*/
 
 nav a img {
     width: 50px;
@@ -59,7 +59,8 @@ nav a img {
 
   }
 
-/*--------------------------------------------------Main Section----------*/
+/*---------------HOME PAGE---------------*/
+
 
 #hero-image {
     background: url("../images/hero-image.png");
@@ -131,7 +132,8 @@ h1 span {
 
 }
 
-/*--------------------------------------------------About----------*/
+/*---------------ABOUT---------------*/
+
 
 .container-about{
     display: flex;
@@ -177,7 +179,7 @@ h2 {
     padding-top: 65px;
 }
 
-/*--------------------------------------------------Volunteer----------*/
+/*---------------VOLUNTEREERING---------------*/
 
 .container-volunteers, .container-clarify {
     display: flex;
@@ -268,7 +270,8 @@ h2 {
     transform: translateY(20%);
 }
 
-/*--------------------------------------------------Carousel----------*/
+/*---------------GALLERY---------------*/
+
 .container-gallery {
     margin-bottom: 50px;
 }
@@ -310,8 +313,7 @@ h2 {
     height: 30px;
 }
 
-/*--------------------------------------------------Contact----------*/
-
+/*---------------CONTACT---------------*/
 
 .container-contact {
     background: url("../images/bg-yellow.png") no-repeat center;
@@ -373,7 +375,8 @@ h2 {
     opacity: 70%;
 }
 
-/*--------------------------------------------------Footer----------*/
+/*---------------FOOTER---------------*/
+
 
 footer {
     margin-top: 20px;
@@ -417,8 +420,9 @@ footer {
     color: #0077B5;
     
 }
-/*
-/*--------------------------------------------------Media Queries----------*/
+
+/*---------------MEDIA QUERIES---------------*/
+
 
 @media screen and (max-width: 1675px) {
 .img-invisible  {
@@ -426,7 +430,6 @@ footer {
 }
 
 }
-
 
 @media screen and (max-width: 1040px) {
 #hero-image {
@@ -524,8 +527,3 @@ h1 {
 }
 
 }
-
-
-
-
-
