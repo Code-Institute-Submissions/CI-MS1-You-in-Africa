@@ -1,14 +1,38 @@
-# [You in Africa] <!--add link-->
+# [You in Africa](https://henriqueperoni.github.io/CI-MS1-You-in-Africa/)
+
+![I am responsive image](assets/images/i-am-responsive.png)
 
 The aim of this project is to get donations and volunteers to help You in Africa. I explained how the project started, how it works, and what has been done so far.
 
 ## Table of Contents:
+* [User Experience](#user-experience)
+    * [Strategy](#1-strategy)
+    * [Scope](#2-scope)
+    * [Structure](#3-structure)
+    * [Skeleton](#4-skeleton)
+    * [Surface](#5-surface)
 
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement When Skills Develop](#features-left-to-implement-when-skills-develop)
 
+* [Technologies Used](#technologies-used)
+    * [Languages](#1-languages)
+    * [Integrations](#2-integrations)
+    * [Workspace, Version Control, and Repository Storage](#3-workspace-version-control-and-repository-storage)
+    
+* [Resources](#resources)
 
+* [Testing](#testing)
 
+* [Deployment](#deployment)
 
+* [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Code](#code)
 
+* [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
@@ -16,21 +40,28 @@ The aim of this project is to get donations and volunteers to help You in Africa
 ### 1. Strategy
 Project Goals:
 
-* To learn about what the project is
-* To be able to easily donate and increase donations
-* Create a website that is visually appealing, and fully responsive on all devices and screen sizes
+* To learn about what the project is.
+
+* To be able to easily donate and increase donations.
+
+* Create a website that is visually appealing, and fully responsive on all devices and screen sizes.
 
 Customer Goals:
 * Website clear and user friendly. Explain as much as possible about the project, but keep it short and simple to not overwhelm.
-* Easy way to donate
-* 
+
+* Easy way to donate.
+
+* Inspire people to become a volunteer.
 
 ### 2. Scope
 I have decided to keep th
 
 * Learn more about the project
+
 * Easy way to apply to become a volunteers
+
 * Contact with a question
+
 * Visit social media channels
 
 ### 3. Structure
@@ -39,7 +70,7 @@ The main goal here is to allow users to quickly assimilate the information. The 
 
 Although the main goal of the website is to get more donations, I did not want to look like the project is just about money. With this in mind, I made it clear that be a volunteer or share the project on social media was a big help as well.
 
-### 4. Structure
+### 4. Skeleton
 
 * Wireframes: <!-- add wireframes here -->
 
@@ -50,7 +81,8 @@ Although the main goal of the website is to get more donations, I did not want t
 * Fixed Footer on small screens with social media icons and donate button.
 
 
-### 5. Structure
+### 5. Surface
+
 **Colours**: As the project already had pages on social media with defined colors, I decided to keep basically keep the same style.
 I used to main colors a dark yellow #F18E04 and a standard brown #5C411A, which provides a good contrast.
 
@@ -63,14 +95,19 @@ I only used Signika for the pictures on the carousel because it looked better.
 
 ### Existing Features
 * Designed with HTML5, CSS3 and Bootstrap.
+
 * Donate button directing to another website.
+
 * Scroll to top button enables the user to quickly move back to the top of the page.
+
 * Fixed navigation bar for large screens to keep visible the donate button.
+
 * Fixed footer for small screens to keep visible the donate button.
+
 * Contact Form with radio buttons.
 
 ### Features Left to Implement when skills develop
-* Donate button direct to a page on the website with a payment system
+* Donate button directing to a page on the website with a payment system.
 
 ## Technologies Used
 
@@ -127,8 +164,6 @@ Code Institute SLACK Community - General Resource
 * Tested across multiple browsers (Chrome, Safari, Firefox, Internet Explorer)
 
 * Tested on multiple mobile devices (iPhone 7, 8, X, Samsung Galaxy, and Xiaomi)
-
-* https://henriqueperoni.github.io/CI-MS1-You-in-Africa/
 
 * Tested About, Gallery, Volunteering, and Contact links in the menu to make sure it points to each page correctly.
 
@@ -187,3 +222,8 @@ I used a lot of flex-boxes on my project, I searched a lot on Google about it, b
 * Thanks to the Code Institute Slack Community. Without you, it would have been much harder.
 
 * Thanks to my wife for all the support she gave me.
+
+
+
+
+
