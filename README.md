@@ -44,7 +44,7 @@ Project Goals:
 
 * To be able to easily donate and increase donations.
 
-* Create a website that is visually appealing, and fully responsive on all devices and screen sizes.
+* Create a visually appealing website, and fully responsive on all devices and screen sizes.
 
 Customer Goals:
 * Website clear and user friendly. Explain as much as possible about the project, but keep it short and simple to not overwhelm.
@@ -54,7 +54,7 @@ Customer Goals:
 * Inspire people to become a volunteer.
 
 ### 2. Scope
-I kept the project simple enough to be understood with no difficult and the user have a good experience
+I kept the project simple enough to be understood with no difficulty and the user have a good experience
 
 * Learn more about the project
 
@@ -66,7 +66,7 @@ I kept the project simple enough to be understood with no difficult and the user
 
 * Visit social media channels
 
-* I used some animations to make de user experience more pleasent and enchanting
+* I used some animations to make the user experience more pleasant and enchanting
 
 ### 3. Structure
 
@@ -87,7 +87,7 @@ Although the main goal of the website is to get more donations, I did not want t
 
 ### 5. Surface
 
-**Colours**: As the project already had pages on social media with defined colors, I decided to keep basically keep the same style.
+**Colours**: As the project already had pages on social media with defined colors, I decided to keep basically the same style.
 I used to main colors a dark yellow #F18E04 and a standard brown #5C411A, which provides a good contrast.
 
 **Typography**: In the beginning, I wanted to use a different font for headings and general text, but choosing Work Sans was great because it looks nice for both cases.
@@ -135,6 +135,8 @@ I only used Signika for the pictures on the carousel because it looked better.
 
 ## Resources
 
+[W3.CSS](https://www.w3schools.com/w3css/defaulT.asp) - General resource.
+
 [Deep Image](https://deep-image.ai/) - Enhance image.
 
 [CSS Matic](https://www.cssmatic.com) - Box Shadow Genetator.
@@ -142,8 +144,6 @@ I only used Signika for the pictures on the carousel because it looked better.
 [Stack Overflow](https://pt.stackoverflow.com/) - General resource.
 
 [CSS Gradient](https://cssgradient.io/) - Gradient Generator
-
-[W3.CSS](https://www.w3schools.com/w3css/defaulT.asp) - General resource.
 
 [Youtube](https://www.youtube.com/) - General resource.
 
@@ -224,8 +224,3 @@ I used a lot of flex-boxes on my project, I searched a lot on Google about it, b
 * Thanks to the Code Institute Slack Community. Without you, it would have been much harder.
 
 * Thanks to my wife for all the support she gave me.
-
-
-
-
-
