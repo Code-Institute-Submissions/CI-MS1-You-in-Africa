@@ -32,7 +32,7 @@ The aim of this project is to show what You in Africa is, how it works. Thus get
     * [Media](#media)
     * [Code](#code)
 
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
 ## User Experience
 
@@ -47,7 +47,7 @@ Project Goals:
 * Create a visually appealing website, and fully responsive on all devices and screen sizes.
 
 Customer Goals:
-* Website clear and user friendly. Explain as much as possible about the project, but keep it short and simple to not overwhelm.
+* Website clear and user-friendly. Explain as much as possible about the project, but keep it short and simple to not overwhelm.
 
 * Easy way to donate.
 
@@ -87,7 +87,7 @@ Although the main goal of the website is to get more donations, I did not want t
 
 ### 5. Surface
 
-**Colours**: As the project already had pages on social media with defined colors, I decided to keep basically the same style.
+**Colors**: As the project already had pages on social media with defined colors, I decided to keep basically the same style.
 I used to main colors a dark yellow #F18E04 and a standard brown #5C411A, which provides a good contrast.
 
 **Typography**: In the beginning, I wanted to use a different font for headings and general text, but choosing Work Sans was great because it looks nice for both cases.
@@ -129,7 +129,7 @@ I only used Signika for the pictures on the carousel because it looked better.
 
 * [Gitpod](https://www.gitpod.io/) - IDE (Integrated Development Environment) used to write the code.
 
-* [GitHub](https://github.com/) - writ someting
+* [GitHub](https://github.com/) - Repository hosting service to host the deployed website and track previous versions of code.
 
 * [Git](https://git-scm.com/) - Version control tool to record changes and updates to my files.
 
@@ -137,15 +137,15 @@ I only used Signika for the pictures on the carousel because it looked better.
 
 [W3.CSS](https://www.w3schools.com/w3css/defaulT.asp) - General resource.
 
+[Stack Overflow](https://pt.stackoverflow.com/) - General resource.
+
+[Youtube](https://www.youtube.com/) - General resource.
+
 [Deep Image](https://deep-image.ai/) - Enhance image.
 
 [CSS Matic](https://www.cssmatic.com) - Box Shadow Genetator.
 
-[Stack Overflow](https://pt.stackoverflow.com/) - General resource.
-
 [CSS Gradient](https://cssgradient.io/) - Gradient Generator
-
-[Youtube](https://www.youtube.com/) - General resource.
 
 [CommonMark](https://commonmark.org/) - For Markdown language reference.
 
@@ -171,13 +171,13 @@ Code Institute SLACK Community - General Resource
 
 * Tested the Donate Button and Social Media icons to make sure they open the correct pages in a new tab on the browser.
 
-* Tested carousel arrows move to the next image correctly and increase the size of the arrows to make it more visible.
+* Tested carousel arrows move to the next image correctly.
 
-* Tested Name and Email to check the input were required.
+* Tested Name and Email input were required.
 
-* Tested Name, Phone Number, and Email request the right input. Not allowing you to put numbers on the name or leave the email without a "@"
+* Tested Name, Phone Number, and Email request the right input. Not allowing you to put numbers on the name or leave the email without a "@".
 
-* Tested radio buttons to make sure only one option can be selected
+* Tested radio buttons to make sure only one option can be selected and one of them is required.
 
 ## Deployment
 
@@ -217,7 +217,7 @@ All the images were provided from You in Africa team. I only had to edit some im
 
 I used a lot of flex-boxes on my project, I searched a lot on Google about it, but this particular [video](https://www.youtube.com/watch?v=JJSoEo8JSnc) helped a lot to understand it deeper.
 
-## Acknowledgements
+## Acknowledgments
 
 * Thanks to my mentor Excellence Ilesanmi for his time, patience, and excellent advice.
 
